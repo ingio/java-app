@@ -75,7 +75,8 @@ jobs:
 
     # adding my build step
     - name: Build with Maven
-      run: mvn --batch-mode --update-snapshots package
+      run: mvn 
+      #--batch-mode --update-snapshots package
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
