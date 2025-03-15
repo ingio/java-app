@@ -1,4 +1,4 @@
-# VulnerableSpring
+# Vulnerable
 Vulnerable Java based Web Application
 
 This is part of Java Vulnerable Lab :
